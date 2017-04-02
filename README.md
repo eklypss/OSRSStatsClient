@@ -1,7 +1,7 @@
-#OSRSStatsClient
+# OSRSStatsClient
 Very basic wrapper/parser for OSRS hiscores page. Supports all hiscore modes, but only skills. Support for clues and minigames might be added later.
 
-###Example usage
+### Example usage
 
 ```
 var statsClient = new OSRSStatsClient();
@@ -15,7 +15,7 @@ foreach (var skill in result.PlayerStats)
 }
 ```
 
-###Outputs
+### Outputs
 ```
 Example of displaying the XP of a specific skill:
 18723479
