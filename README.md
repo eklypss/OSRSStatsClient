@@ -1,5 +1,7 @@
 # OSRSStatsClient
-Very basic wrapper/parser for OSRS hiscores page. Supports all hiscore modes, but only skills. Support for clues and minigames might be added later.
+Very basic parser for OSRS hiscores page. Supports all hiscore modes, but only skills.
+
+Note: the raw data that gets parsed is in raw, plain-text format (so not in a easily parseable JSON/XML format), which can cause problems if Jagex changes the raw data formatting or ordering.
 
 ### Example usage
 
